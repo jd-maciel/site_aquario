@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Bootstrap - INICIO -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Bootstrap - FIM -->
+
+    <!-- FONTAWESOME - INICIO -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!-- FONTAWESOME - FIM -->
+
+    <!-- LCICERIS - Contato - INICIO -->
+    <link rel="stylesheet" href="css/lciceris-contato.css">
+    <!-- LCICERIS - Contato - FIM -->
+
+    <!-- MB Estilo CSS - INICIO -->
+    <link rel="stylesheet" href="css/mb-style.css">
+    <!-- MB Estilo CSS - FIM -->
+
+    <title>:: WEB Full ::</title>
+</head>
+<body>
+
+    <!-- PLUGIN Facebbok - OS Infra -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v3.3"></script>
+
+    <div class="mb-site">
+        <!-- Section MENU -->
+        <div id="mb-menu" class="mb-section">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#mb-menu">Início <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#mb-profile">Quem Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#mb-contact">Contato</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Dropdown link
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Section BANNER -->
+        <div id="mb-banner" class="mb-section">
+            <div class="bd-example">
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/banner1.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>AQUÁRIO MUNICIPAL</h5>
+                                <p>Venha fazer um visita!!!</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/banner2.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>AQUÁRIO MUNICIPAL</h5>
+                                <p>Venha fazer um visita!!!</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/banner3.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>AQUÁRIO MUNICIPAL</h5>
+                                <p>Venha fazer um visita!!!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section PROFILE -->
+        <div id="mb-profile" class="mb-section">
+            <!-- PERFIL tubarao baleia -->
+            <div class="mb-profile-avatar mb-profile-block">
+                <div class="mb-profile-avatar-image"><img src="images/tubarao-baleia.jpg" alt=""> </div>
+
+                <div class="mb-profile-avatar-lente"></div>
+            </div>
+            
+            <div  class="mb-profile-text mb-profile-block mb-bg-green">
+                <span>Tubarão Baleia</span>
+                <p>
+                    O tubarão-baleia é o maior peixe do mundo, e maior das espécies de tubarão, chegando a 
+                    atingir de 20 metros de comprimento e pesar 13 toneladas. O tubarão-baleia é o maior peixe 
+                    do mundo, e maior das espécies de tubarão, chegando a atingir de 20 metros de comprimento 
+                    e pesar 13 toneladas, mas seu tamanho mais comum é de aproximadamente 12 metros. Seu nome 
+                    científico é Rhincodon typus, seu habitat são os oceanos quentes em regiões de clima tropical,
+                    geralmente de águas claras. Apesar de ser um tubarão, este peixe gigantesco é um animal 
+                    inofensivo ao homem, considerado dócil, sendo que mergulhadores nadam ao seu lado, sem problemas. 
+                    O tubarão-baleia se alimentam em sua maior parte de plâncton, além de macro-algas, krill, 
+                    pequenos polvos e outros pequenos animais invertebrados. Apesar de possuir uma grande 
+                    quantidade de dentes, o maior peixe do mundo não os usa para alimentação. Sua alimentação é 
+                    absorvida através da água que entra constantemente na boca e sai em suas brânquias. 
+                </p>
+            </div>
+            
+            
+            <!-- PERFIL tubarao baleia -->
+            <div class="mb-profile-avatar mb-profile-block mb-profile-float">
+                    <div class="mb-profile-avatar-image"><img src="images/tubarao-branco.jpg" alt=""> </div>
+    
+                    <div class="mb-profile-avatar-lente"></div>
+                </div>
+                
+                <div  class="mb-profile-text mb-profile-block mb-bg-red">
+                    <span>Tubarão Branco</span>
+                    <p>
+                        Os tubarões existem em nosso planeta a mais de 400 milhões de anos. Seus antepassados
+                        eram bem diferentes da forma atual como os conhecemos, sendo mais parecidos com enguias.
+                        Atualmente são conhecidas em torno de 400 espécies, sendo oitenta e oito delas encontradas 
+                        aqui no Brasil. Tubarões são encontrados em oceanos e mares de todo o mundo e com algumas
+                         exceções também em água doce. Nadam a uma profundidade de até dois mil metros e podem 
+                         variar de 20 centímetros a 15 metros de comprimento. Algumas espécies vivem até os 
+                         100 anos, mas a grande maioria tem expectativa de vida em torno de 20 a 30 anos. 
+                         Carnívoros por natureza, os tubarões são excelentes caçadores, podendo detectar sua 
+                         potencial presa a longa distância. Sua alimentação é composta por uma variedade de 
+                         espécies, que inclui baleias, atuns, mamíferos marinhos, aves, tartarugas, 
+                         dentre outros. Em média deslocam a uma velocidade média de 8 quilômetros por hora,
+                          mas ao perseguir uma presa podem atingir até 19 quilômetros por hora.
+                    </p>
+                </div>
+
+
+             <!-- PERFIL tubarao baleia -->
+             <div class="mb-profile-avatar mb-profile-block">
+                    <div class="mb-profile-avatar-image"><img src="images/tubarao-martelo.jpg" alt=""> </div>
+    
+                    <div class="mb-profile-avatar-lente"></div>
+                </div>
+                
+                <div  class="mb-profile-text mb-profile-block mb-bg-green">
+                    <span>Tubarão Martelo</span>
+                    <p>
+                            A família Sphyrnidae é composta por dois gêneros: Eusphyra e Sphyrna, que englobam 
+                            uma e nove espécies de tubarão-martelo, respectivamente. Estes animais podem medir 
+                            entre 0,9 até 6 metros de comprimento, pesando cerca de 3 a 500 kg. Sua principal 
+                            característica consiste na cabeça em forma de T, semelhante à um martelo, na qual 
+                            seus olhos encontram-se espaçados em cada uma das extremidades. A visão seria, 
+                            inclusive, a principal razão evolutiva pela qual estes animais apresentam um 
+                            crânio tão peculiar: seu formato permitiria aos tubarões-martelo enxergar acima 
+                            e abaixo de si mesmos, promovendo uma visão 360º do ambiente marinho. Esta estrutura,
+                             a distribuição mais ampla das ampolas de Lorenzini ao longo de sua cabeça 
+                             (mecanismo que detecta mudanças de temperatura, compostos químicos e campos 
+                             elétricos gerados por possíveis presas), e a eficácia vertebral destes animais 
+                             (i.e. maior mobilidade das vértebras e, consequentemente, do animal) favorecem 
+                             o papel dos tubarões-martelo como predadores vorazes.
+                    </p>
+                </div>
+        </div>
+        <div id="mb-contact" class="mb-section">
+            <!-- FORM Contato ('https://www.lciceris.com.br/formulario-de-contato-responsivo/') -->
+            <div class="container">  
+                <form action="envia.php" class="form-contact" method="post" tabindex="1">  
+                    <input type="text" class="form-contact-input" name="nome" placeholder="Nome" required />  
+                        <input type="email" class="form-contact-input" name="email" placeholder="Email" required />  
+                        <input type="tel" class="form-contact-input" name="tel" placeholder="Telefone" />  
+                        <textarea class="form-contact-textarea" name="conteudo" placeholder="Deixe uma mensagem" required></textarea>  
+                        <button type="submit" class="form-contact-button">Enviar</button>  
+                </form>  
+            </div>            
+        </div>
+        <div id="mb-footer" class="mb-section">
+            <!-- PLUGIN - Facebook - OS Infra -->
+            <div class="fb-page" data-href="https://www.facebook.com/Fundo-Do-Mar-461456537320791/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/Fundo-Do-Mar-461456537320791/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Fundo-Do-Mar-461456537320791/">Fundo Do Mar</a></blockquote></div>
+        </div>
+    </div>
+
+    <!-- BUTTON Voltar -->
+    <a href="#mb-menu">
+        <div id="mb-button-home">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </a>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/mb-script.js"></script>
+</body>
+</html>

@@ -1,0 +1,163 @@
+.mb-site {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 218, 175);
+}
+
+.mb-section {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+#mb-menu {
+    height: 50px;
+    background-color: rgb(94, 13, 13);
+    z-index: 100;
+}
+
+/* BANNER - COMEÇO */
+#mb-banner {
+  
+    background-color: rgb(194, 116, 0);
+}
+
+/* BANNER - FIM */
+
+/* PROFILE */
+#mb-profile {
+    background-color: rgb(83, 83, 83);
+}
+
+.mb-profile-block {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 350px;
+}
+
+.mb-profile-avatar {
+    background-color: rgb(0, 87, 0);
+}
+
+.mb-profile-text {
+    background-color: rgb(56, 56, 56);
+
+    padding: 25px;
+}
+
+.mb-profile-float {
+    float: right !important;
+}
+
+
+/* PROFILE */
+
+#mb-contact {
+    background-color: rgb(29, 4, 4);
+    padding-top: 20px;
+}
+
+#mb-footer {
+    padding: 20px;
+    background-color: rgb(22, 22, 22);
+}
+
+#mb-button-home {
+    position: fixed;
+    bottom: 20px;
+    right: 100px;
+    width: 50px;
+    height: 50px;
+
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+
+    border-radius: 50%;
+
+    background-color: rgb(133, 23, 23);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 100;
+}
+
+.mb-profile-avatar-image{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100%;
+
+   
+}
+
+.mb-profile-avatar-image img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+ 
+}
+
+.mb-profile-avatar-lente{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.349);
+    z-index: 95;
+    transition: 0,2s;
+}
+
+.mb-profile-avatar-lente:hover{
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.mb-profile-text span{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    
+}
+
+.mb-profile-text p{
+    color: aliceblue;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.mb-bg-green{
+    background-color: rgb(9, 29, 23);
+}
+
+.mb-bg-red{
+    background-color: rgb(51, 6, 4);
+}
+
+/* BOOTRAP - COMEÇO*/
+
+.h5, h5{
+    font-size: 80px !important;
+    background-color: rgb(9, 66, 26) !important;
+}
+
+.carousel-caption p{
+    font-size: 30px !important;
+    color: rgb(255, 255, 255);
+}
+
+
+/* BOOTRAP - FIM*/
+
+
+
+@media all and (max-width: 375px) {
+    .mb-profile-block {
+        width: 100%;
+    }
+}
+    
